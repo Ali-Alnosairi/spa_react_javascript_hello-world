@@ -2,7 +2,7 @@ import React from "react";
 import { NavBarBrand } from "./nav-bar-brand";
 import { NavBarButtons } from "./nav-bar-buttons";
 import { NavBarTabs } from "./nav-bar-tabs";
-
+import LoginButton from "../../LoginButton";
 export const NavBar = () => {
   return (
     <div className="nav-bar__container">
@@ -10,6 +10,7 @@ export const NavBar = () => {
         <NavBarBrand />
         <NavBarTabs />
         <NavBarButtons />
+        <LoginButton />
       </nav>
     </div>
   );
